@@ -1,0 +1,23 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Repo for testing things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superkhau/sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superkhau/sandbox/issues"
+  },
+  "homepage": "https://github.com/superkhau/sandbox#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
