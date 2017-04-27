@@ -5,8 +5,5 @@ node_js:
 deploy:
   provider: npm
   email: superkhau@gmail.com
-  api_key:
-    secure: fSaBqTPapDGkct2TLiuMx728Vgyetar5qWG/KTWYPDeEkLg+gQB5tD+xXEWivmW1Fsqffswp0pAUIWUaqYOkveBJRjuecdFusc823iPQZFfuy7PnIA7yvf+70caRlTtPJbKLYBIw5u3vpevqClpSNGTnoH3+xmqsb1kHQEGmV1IxcRWmFmmaLYDrcrl43ZBH8vtUJQEB82NlxMnkD6VwmTOPfdNWU9da4OCwwKdp1rwVhLFCAtZ/c5kOXeosEMYbWx+KZpBlJ5CeGVWuj4J5G9K1oLKb+ftGde1CNrSQn4xHdcRagw8IJtCvL3BfVPgl3cGMb3S3rwHEWzQA0DGWAn5OhNlX7VKQ9GAvPQ+vr1/piUpicSWZo9+qYfGeRmXqnmXRsLWXsJfe8r27ySHtyEoDRMhrvGAkphGM0BX/KhQGRyOJcsxkJek1Ja+HCgAZ+vW9vwjBdHaboRLaV0WyIY46S2SQD2AB1fnexDl2pIeKPHTyRsDauTPSKF/3nYGsTCoM+eUtW6Py43zI7YWzKnam22U4X2AkUDjQWhjBtyi7DmaUAjxoa3kY9jFaxzh8prM/JRuviU8NMffQzkEoX1kOpWpFS+vIC0hEzPAcSzlx+qCJyNRy91U+3Nyy2Zju2dCna6ev0QqdwHxDBFCvp1qw/Jpix4BECDIrjCiRzbk=
   on:
-    tags: true
     repo: superkhau/sandbox
