@@ -1,0 +1,19 @@
+lerna(info)    Lerna v2.0.0-rc.3
+lerna(verbose) GitUtilities.isInitialized    (".")
+lerna(verbose) GitUtilities.isInitialized    (".") => true
+lerna(verbose) FileSystemUtilities.existsSync("./VERSION")
+lerna(verbose) FileSystemUtilities.existsSync("./VERSION") => false
+lerna(error)   Errored while collecting packages and package graph
+    JSONError: Unexpected token '}' at 18:1 in packages/usage/package.json
+    }
+    ^
+        at module.exports (/Users/simonho/.nvm/versions/node/v7.8.0/lib/node_modules/lerna/node_modules/parse-json/index.js:27:17)
+        at parse (/Users/simonho/.nvm/versions/node/v7.8.0/lib/node_modules/lerna/node_modules/load-json-file/index.js:8:29)
+        at Function.module.exports.sync.fp [as sync] (/Users/simonho/.nvm/versions/node/v7.8.0/lib/node_modules/lerna/node_modules/load-json-file/index.js:11:29)
+        at Function.module.exports.sync (/Users/simonho/.nvm/versions/node/v7.8.0/lib/node_modules/lerna/node_modules/read-pkg/index.js:40:25)
+        at /Users/simonho/.nvm/versions/node/v7.8.0/lib/node_modules/lerna/lib/PackageUtilities.js:102:47
+        at Array.forEach (native)
+        at /Users/simonho/.nvm/versions/node/v7.8.0/lib/node_modules/lerna/lib/PackageUtilities.js:96:86
+        at Array.forEach (native)
+        at Function.getPackages (/Users/simonho/.nvm/versions/node/v7.8.0/lib/node_modules/lerna/lib/PackageUtilities.js:95:22)
+        at Repository.buildPackageGraph (/Users/simonho/.nvm/versions/node/v7.8.0/lib/node_modules/lerna/lib/Repository.js:77:51)

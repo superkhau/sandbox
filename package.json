@@ -22,5 +22,8 @@
   "homepage": "https://github.com/superkhau/sandbox#readme",
   "dependencies": {
     "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "lerna": "^2.0.0-rc.3"
   }
 }
