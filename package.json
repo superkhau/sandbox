@@ -4,7 +4,8 @@
   "description": "Repo for testing things.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "bootstrap": "lerna bootstrap",
+    "test": "mocha 'packages/*/test/**/*.js'"
   },
   "repository": {
     "type": "git",
