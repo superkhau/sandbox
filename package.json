@@ -20,10 +20,9 @@
     "url": "https://github.com/superkhau/sandbox/issues"
   },
   "homepage": "https://github.com/superkhau/sandbox#readme",
-  "dependencies": {
-    "mocha": "^3.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "lerna": "^2.0.0-rc.3"
+    "lerna": "^2.0.0-rc.3",
+    "mocha": "^3.3.0"
   }
 }
