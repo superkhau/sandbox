@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish --skip-npm && git push --follow-tags",
     "test": "lerna run test"
   },
   "repository": {
