@@ -2,8 +2,13 @@ sudo: false
 language: node_js
 node_js:
 - '7'
+before_install:
+- npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
 deploy:
   provider: npm
   email: superkhau@gmail.com
   on:
     repo: superkhau/sandbox
+env:
+  global:
+    secure: IlJkBdvq9YjnyXRDUfOM88y5KM7/76jrKP96OBb5MBj+h6oV370hNl/uCPwOmVMl+am6bnuUQeSNXmfnfJpWMEew5bNex5sOiE5hx1FkK01FpQTAKZm+cN7OnkOUL9cCabf2DX2C0GUg8/GTTuRPgy8Sg3SO3Emkbl3Pnpggv0bnIRVypm9KtHtLhcXzUYnWW8AmJenFelRdsju1B0utEGq2WEY4Ffj58+PvwdQMPOBsAhLXLBDF3eboYwfX0+yn2Q01tu5jEYAQgZSZPjE9cHLe1ytfh0vpWHqFLoMH+Zs7a83ywuvl4CFNeNplY2icEBOhEhV8FQNTTBlAEKn/ZznhHsQrFPCRyB8KjlCCfKzYgUE37ipayGB6/wWkD+3kzHZDov13zcPDQPdiW25MXWHra/aFvk6li5ALBgEjLpv9kbpAGBvNUs3M6/tuzGGjP9NbOxM33F+Ar8ILi4SFk6/gRxNeYoAFPd+SkoQ/F3mXe2R49BBreK9besI/KHKEpWQ4Ku7OukApJA4kQi2soT5EUtcMjMJLdi1P5hSPTD+AEh0+sztVUp5CtX3AIlxNkWzkPhsg/MFON9yv7wsgBv19oApf0oHBQtagRk8qYonW6Wvuwy/+F2ReMrxL/BSreJOzXxInT3b4JLssO/7Pv5dzrc2b3tDCATrWjkEw4Zw=
