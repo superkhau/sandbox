@@ -3,7 +3,7 @@ node_js:
 - '7'
 deploy:
   provider: npm
-  email: superkhau@gmail.com
+  email: $NPM_USER
   api_key: $NPM_TOKEN
   on:
     repo: superkhau/sandbox
