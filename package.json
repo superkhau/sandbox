@@ -1,5 +1,5 @@
 {
-  "name": "sandbox",
+  "name": "@superkhau/sandbox",
   "version": "1.0.0",
   "description": "Repo for testing things.",
   "main": "index.js",
@@ -10,9 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/superkhau/sandbox.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "superkhau",
+    "sandbox"
+  ],
+  "author": "Simon Ho",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/superkhau/sandbox/issues"
   },

@@ -1,8 +1,7 @@
 var assert = require('assert');
 
-describe('smoke', function() {
-  it('should pass', function() {
-    // make it pass again
+describe('smoke test', () => {
+  it('passes', () => {
     assert.equal(1, 1);
   });
 });
