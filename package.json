@@ -1,6 +1,6 @@
 {
   "name": "@superkhau/sandbox",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Repo for testing things.",
   "main": "index.js",
   "scripts": {
