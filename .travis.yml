@@ -6,4 +6,5 @@ deploy:
   email: $NPM_USER
   api_key: $NPM_TOKEN
   on:
+    tags: true
     repo: superkhau/sandbox
