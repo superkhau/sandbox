@@ -4,5 +4,6 @@ node_js:
 deploy:
   provider: npm
   email: superkhau@gmail.com
+  api_key: $NPM_TOKEN
   on:
     repo: superkhau/sandbox
