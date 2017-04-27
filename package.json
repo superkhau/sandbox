@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "test": "mocha 'packages/*/test/**/*.js'"
+    "test": "lerna run test"
   },
   "repository": {
     "type": "git",
